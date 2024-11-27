@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.example.hola"
     compileSdk =35
-    buildToolsVersion ="33.0.0"
+    buildToolsVersion ="34.0.0"
 
     defaultConfig {
         applicationId = "com.example.hola"
@@ -40,6 +40,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -59,6 +60,15 @@ dependencies {
     implementation ("androidx.viewpager2:viewpager2:1.0.0")
     implementation ("com.google.android.material:material:1.6.0")
 
+    implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
+    implementation ("com.android.volley:volley:1.2.1")
+
+
+    implementation("com.google.code.gson:gson:2.8.8")
+
+
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
